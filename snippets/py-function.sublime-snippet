@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+def ${1:foo}(dummy: str) -> str:
+    '''!@brief Sample docstring.
+
+    More elaborate description.
+
+    @param dummy A dummy template parameter to clone.
+
+    @return Some string output
+    '''
+    return 'Hello world'
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sni-py-function</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Create a python function.</description>
+</snippet>
