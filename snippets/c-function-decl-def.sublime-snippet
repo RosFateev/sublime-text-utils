@@ -35,7 +35,7 @@ RetVal_t MODULE_File_FuncName(int ${1:intParam},
     RetVal_t result;
 
     return result;
-}
+} // End: MODULE_File_FuncName()
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>sni-c-func-decl-def</tabTrigger>
@@ -43,3 +43,4 @@ RetVal_t MODULE_File_FuncName(int ${1:intParam},
     <scope>source.c</scope>
     <description>Create C function declaration and definition.</description>
 </snippet>
+
