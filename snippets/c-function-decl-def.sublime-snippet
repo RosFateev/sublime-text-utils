@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-//------------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////
 ///
 /// @brief Brief function description.
 ///
-/// More detailed description.
+/// @details More detailed description.
 ///
 /// @note Some things to consider.
 ///
@@ -16,17 +16,17 @@
 /// @return Some meaningfull return value.
 /// @retval VALUE_1 Some result description.
 /// @retval VALUE_2 Another result description.
-//------------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////
 RetVal_t MODULE_File_FuncName(int ${1:intParam},
                               char* ${2:pCharParam});
 
-//------------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////
 //
 // Brief function description.
 //
 // More detailed description.
 //
-//------------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////
 RetVal_t MODULE_File_FuncName(int ${1:intParam},
                               char* ${2:pCharParam})
 {
