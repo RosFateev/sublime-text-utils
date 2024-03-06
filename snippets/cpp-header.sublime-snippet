@@ -1,0 +1,73 @@
+<snippet>
+    <content><![CDATA[
+//==============================================================================
+///
+/// @file path/${1:header.hpp}
+///
+/// @brief Short description
+///
+/// Long description.
+///
+/// @note Some specific info.
+///
+/// @warning Beware!
+///
+/// Support email: name@mailbox.com
+///
+//==============================================================================
+
+//==============================================================================
+// Include only once
+//
+#if !defined(HEADER_HPP)
+#define HEADER_HPP
+
+//------------------------------------------------------------------------------
+// Include files
+//------------------------------------------------------------------------------
+// System includes
+// (none)
+
+// C project includes
+// (none)
+
+// C++ project includes
+// (none)
+
+
+//------------------------------------------------------------------------------
+// Forward declarations
+//------------------------------------------------------------------------------
+// (none)
+
+//------------------------------------------------------------------------------
+// ${2:namespace_name} namespace
+//------------------------------------------------------------------------------
+namespace ${2:namespace_name}
+{
+
+//------------------------------------------------------------------------------
+// Forward declarations in ${2:namespace_name}
+//------------------------------------------------------------------------------
+// (none)
+
+////////////////////////////////////////////////////////////////////////////////
+/// Consider adding class declaration here
+////////////////////////////////////////////////////////////////////////////////
+
+
+} // End of namespace ${2:namespace_name}
+
+#endif // HEADER_HPP
+//==============================================================================
+// End of ${1:header.hpp}
+// (note: the newline at the end of the file is intentional)
+//==============================================================================
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sni-cpp-header</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c++</scope>
+    <description>Create C++ header file.</description>
+</snippet>
