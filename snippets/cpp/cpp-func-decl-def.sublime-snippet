@@ -1,0 +1,43 @@
+<snippet>
+    <content><![CDATA[
+////////////////////////////////////////////////////////////////////////////////
+///
+/// @brief Brief function description.
+///
+/// @details More detailed description.
+///
+/// @note Some things to consider.
+///
+/// @warning Some things to watch out for.
+///
+/// @param[in] param Parameter description.
+///
+/// @return Some meaningfull return value.
+/// @retval VALUE_1 Some result description.
+/// @retval VALUE_2 Another result description.
+///
+////////////////////////////////////////////////////////////////////////////////
+RetVal_t ${1:func_name}(param_type param);
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// Brief function description.
+//
+// More detailed description.
+//
+////////////////////////////////////////////////////////////////////////////////
+RetVal_t ${2:class_name}::${1:func_name}(param_type param)
+{
+    (void)param;
+
+    RetVal_t result;
+    return result;
+} // End: MODULE_File_FuncName()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sni-cpp-func-decl-def</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c++</scope>
+    <description>Create C++ function declaration and definition.</description>
+</snippet>
+
