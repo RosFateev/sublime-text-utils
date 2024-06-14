@@ -13,6 +13,7 @@
 class ${1:class_name}
 {
 public:
+
     //--------------------------------------------------------------------------
     // Public constants
     //--------------------------------------------------------------------------
@@ -26,7 +27,64 @@ public:
     //--------------------------------------------------------------------------
     // Public methods
     //--------------------------------------------------------------------------
-    // (none)
+    
+    ////////////////////////////////////////////////////////////////////////////
+    ///
+    /// @brief Default constructor.
+    ///
+    /// @details More detailed description.
+    ///
+    /// @note Some things to consider.
+    ///
+    /// @warning Some things to watch out for.
+    ///
+    ////////////////////////////////////////////////////////////////////////////
+    ${1:class_name}();
+
+    ////////////////////////////////////////////////////////////////////////////
+    ///
+    /// @brief Copy constructor.
+    ///
+    /// @details More detailed description.
+    ///
+    /// @note Some things to consider.
+    ///
+    /// @warning Some things to watch out for.
+    ///
+    /// @param[in] rObj Reference to object to copy.
+    ///
+    ////////////////////////////////////////////////////////////////////////////
+    ${1:class_name}(const ${1:class_name}& rObj);
+
+    ////////////////////////////////////////////////////////////////////////////
+    ///
+    /// @brief Copy assignment operator.
+    ///
+    /// @details More detailed description.
+    ///
+    /// @note Some things to consider.
+    ///
+    /// @warning Some things to watch out for.
+    ///
+    /// @param[in] rObj Reference to object to copy.
+    ///
+    /// @return Reference to this object.
+    ///
+    ////////////////////////////////////////////////////////////////////////////
+    ${1:class_name}& operator=(const ${1:class_name}&) rObj;
+
+    ////////////////////////////////////////////////////////////////////////////
+    ///
+    /// @brief Destructor.
+    ///
+    /// @details More detailed description.
+    ///
+    /// @note Some things to consider.
+    ///
+    /// @warning Some things to watch out for.
+    ///
+    ////////////////////////////////////////////////////////////////////////////
+    ~${1:class_name}();
 
     //--------------------------------------------------------------------------
     // Inline methods
@@ -35,6 +93,7 @@ public:
 
 
 protected:
+
     //--------------------------------------------------------------------------
     // Protected constants
     //--------------------------------------------------------------------------
@@ -57,6 +116,7 @@ protected:
 
 
 private:
+
     //--------------------------------------------------------------------------
     // Private constants
     //--------------------------------------------------------------------------
@@ -80,7 +140,7 @@ private:
 }; // End of class ${1:class_name}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>sni-cpp-class-decl</tabTrigger>
+    <tabTrigger>sni-cpp-class-general-decl</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.c++</scope>
     <description>Create C++ class declaration.</description>
